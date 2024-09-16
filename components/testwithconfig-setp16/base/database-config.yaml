@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: testwithconfig-setp16-database-config
+data:
+  VECTORDB_HOST: "testwithconfig-setp16-database"
+  VECTORDB_PORT: ""
